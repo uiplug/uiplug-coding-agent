@@ -1,0 +1,25 @@
+{
+  "name": "uiplug-agent",
+  "version": "0.1.0",
+  "description": "A terminal coding agent powered by Claude, built for UIPlug UI consistency",
+  "type": "module",
+  "bin": {
+    "uiplug": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx --no-deprecation src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@supabase/supabase-js": "^2.103.3",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
