@@ -1,4 +1,3 @@
-&nbsp;
 # UIPlug Agent
 
 A terminal coding assistant powered by Claude, built for UIPlug UI consistency.
